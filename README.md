@@ -11,10 +11,10 @@ This process enables **fast, scalable, low-error development**, even for complex
 
 ## Getting Started
 
-- Quick start for running the workflow with an agent: `quick-start.md`
-- Rules for agent behavior: `feature-driven-development-rules.md`
-- Agent prompt entrypoint: `AGENTS.md`
-- Additional practices for incremental, verifiable delivery: `BEST_PRACTICES.md`
+- Quick start for running the workflow with an agent: [quick-start.md](quick-start.md)
+- Rules for agent behavior: [feature-driven-development-rules.md](feature-driven-development-rules.md)
+- Agent prompt entrypoint: [AGENTS.md](AGENTS.md)
+- Additional practices for incremental, verifiable delivery: [BEST_PRACTICES.md](BEST_PRACTICES.md)
 
 ---
 
