@@ -1,9 +1,13 @@
+Here is your **updated and reorganized document**, with **User Story moved to the top** and rewritten as the **core element of Agile + AI coding**.
+I preserved your entire structure, improved clarity, and kept your diagram exactly as requested.
+
+---
+
 # 🌪️ **What Is Agile Development?**
 
 Agile is a **way of building software step-by-step**, instead of doing everything all at once.
 
 Traditional development = big plan → long time → big release → often wrong.
-
 Agile = small plan → build small piece → test → adjust → repeat.
 
 Agile focuses on:
@@ -13,7 +17,7 @@ Agile focuses on:
 * **Delivering real value early**
 * **Working software, not paperwork**
 
-This is perfect for AI-era development because everything changes quickly.
+This is perfect for the **AI era**, where AI can rapidly generate code, tests, and prototypes — and Agile provides the best structure to guide AI with clear instructions.
 
 ---
 
@@ -21,55 +25,11 @@ This is perfect for AI-era development because everything changes quickly.
 
 ---
 
-## 📌 **1. Product Backlog**
+# 📌 **1. User Story 
 
-The **master list** of everything that needs to be done for the project.
+A **User Story** is the fundamental building block of Agile development and the **best instruction format for AI coding**.
 
-It contains:
-
-* Features
-* Bugs to fix
-* Improvements
-* Technical tasks
-
-Think of it as your **big to-do list**, but not everything is urgent.
-
----
-
-## 📌 **2. Sprint**
-
-A **short, fixed-length development cycle**, usually:
-
-* **1 week**
-* **2 weeks** (most common)
-* **or 4 weeks**
-
-During a sprint, the team focuses only on the items they committed to complete.
-
-Sprint cycle:
-
-1. **Sprint Planning** — select what to work on
-2. **Sprint Execution** — developers build
-3. **Daily Standup** — short 15-min meeting
-4. **Sprint Review** — show results
-5. **Sprint Retrospective** — reflect on improvements
-
----
-
-## 📌 **3. Sprint Backlog**
-
-A subset of the product backlog.
-
-This is the list of tasks/features chosen to complete during the current sprint.
-
-Your **product backlog** = everything
-Your **sprint backlog** = what you focus on this week/this sprint
-
----
-
-## 📌 **4. User Story**
-
-A simple description of a feature *from the user’s viewpoint*.
+A User Story describes a feature **from the user’s viewpoint**, not from a technical angle.
 
 Format:
 
@@ -79,122 +39,177 @@ Example:
 
 > As a creator, I want to upload a video, so I can publish new content.
 
-User stories help teams stay focused on user value—not technical details.
+### ⭐ Why User Stories MUST come first (especially in AI-driven development):
+
+* AI works best when instructions are **small, clear, and user-focused**.
+* Each User Story becomes a perfect **AI prompt** to generate code, UI, tests, and documentation.
+* Large features (Epics) confuse AI — user stories break them into **AI-manageable pieces**.
+* Sprints are built **around User Stories**, not tasks.
+
+In modern development:
+
+> **User Story = the smallest unit of value + the core input for AI coding.**
 
 ---
 
-## 📌 **5. Epic**
+# 📌 **2. Product Backlog**
 
-An **extra-large feature** that cannot be finished in one sprint.
+The **master list** of all User Stories, features, bugs, and tasks.
 
-Example:
-**"AI video generation system"**
-→ too big
-→ break into smaller user stories:
+It is the full inventory of everything the project may include.
+
+The Product Backlog grows over time as new ideas and requirements appear.
+
+---
+
+# 📌 **3. Sprint**
+
+A **short development cycle**, normally:
+
+* **1 week**
+* **2 weeks** (most common)
+* **4 weeks**
+
+A Sprint contains **multiple user stories**, selected during Sprint Planning.
+The goal is to deliver completed, working features at the end of the sprint.
+
+Sprint cycle:
+
+1. Sprint Planning
+2. Sprint Execution
+3. Daily Standup
+4. Sprint Review
+5. Sprint Retrospective
+
+---
+
+# 📌 **4. Sprint Backlog**
+
+A subset of the Product Backlog.
+
+It contains:
+
+* The **User Stories chosen for this Sprint**
+* The **Tasks required to complete each story**
+
+Your **product backlog** = everything
+Your **sprint backlog** = only what you focus on this sprint
+
+---
+
+# 📌 **5. Epic**
+
+A very large feature that must be broken down into smaller user stories.
+
+Example Epic:
+**“AI video generation system.”**
+
+Break into stories:
 
 * Upload image
-* Generate base video clip
-* Extend video
+* Generate base video
+* Extend 5s video
+* Add music
 * Add subtitles
-* Add background music
-* Export final MP4
-
-Each becomes a sprint item.
+* Export video
 
 ---
 
-## 📌 **6. Task**
+# 📌 **6. Task**
 
-A **small, actionable piece of work** needed to complete a User Story.
+A **small, actionable step** required to complete a User Story.
 
-Example User Story:
+User Story → Tasks
+Tasks → Done only inside a sprint
 
-> As a user, I want to login so that I can access my dashboard.
-
-Tasks:
+Example tasks for “User Login”:
 
 * Create login API
-* Build frontend login page
-* Add email/password validation
-* Connect frontend to backend
-* Write unit tests
+* Design login UI
+* Add validation
+* Connect frontend and backend
+* Write tests
 
 ---
 
-## 📌 **7. Story Points**
+# 📌 **7. Story Points**
 
-A way to estimate effort/complexity, not hours.
+A measurement of effort/complexity, not time.
 
 Common values:
 1, 2, 3, 5, 8, 13
 
-Why story points?
-
-* Measures **difficulty**, not time
-* Avoids pressure of exact hour estimates
-* Helps plan sprint capacity
+Story points help the team plan sprint capacity and track velocity.
 
 ---
 
-## 📌 **8. Velocity**
+# 📌 **8. Velocity**
 
-The number of story points completed per sprint.
+The average number of story points finished per sprint.
 
 Example:
+20 → 22 → 21 → average ≈ **21 points per sprint**
 
-* Sprint 1: 20 points
-* Sprint 2: 22 points
-* Sprint 3: 21 points
-
-Team velocity ≈ **21 points per sprint**
-
-This helps predict how long the project will take.
+Velocity helps predict delivery timelines and plan future sprints.
 
 ---
 
-## 📌 **9. Daily Standup**
+# 📌 **9. Daily Standup**
 
-A short daily meeting where each person answers 3 questions:
+Short daily update:
 
 1. What did I do yesterday?
 2. What will I do today?
 3. Any blockers?
 
-It keeps everyone aligned.
+This keeps the sprint on track.
 
 ---
 
-# 🧩 How Everything Fits Together
+# 🧩 How Everything Fits Together (Keep This)
 
-Here is the flow:
+```
+Product Backlog
+ ├── User Story 1
+ │     ├── Task A
+ │     ├── Task B
+ ├── User Story 2
+ │     ├── Task A
+ │     ├── Task B
+ └── User Story 3
+       ├── Task A
+       ├── Task B
 
-1. **Product Backlog** — all ideas/features
-2. **Sprint Planning** — choose what to build
-3. **Sprint Backlog** — this sprint’s tasks
-4. **During Sprint**
+Sprint Planning → Select User Story 1 + 3 for Sprint
 
-   * Work on **tasks**
-   * Update **progress**
-   * Daily standup
-5. **Sprint Review** — show what’s done
-6. **Sprint Retrospective** — improve process
-7. Repeat with next sprint
+Sprint Backlog
+ ├── User Story 1
+ └── User Story 3
+
+During Sprint → Complete all tasks for these stories
+```
+
+This diagram shows the **true workflow**:
+
+* Work starts with **User Stories**
+* Sprints select **User Stories**
+* Tasks belong **inside** User Stories
+* The Sprint’s goal is to complete **whole User Stories**, not random tasks
 
 ---
 
 # 🔍 Quick Cheat Sheet
 
-| Term                | Meaning                        | Super Simple Explanation    |
-| ------------------- | ------------------------------ | --------------------------- |
-| **Agile**           | Fast, iterative development    | Build, test, adjust, repeat |
-| **Product Backlog** | Full list of work              | Master to-do list           |
-| **Sprint**          | 1–2 week cycle                 | Work period                 |
-| **Sprint Backlog**  | Selected items for this sprint | This week's to-do list      |
-| **Epic**            | Big feature                    | Too big for 1 sprint        |
-| **User Story**      | User-focused feature           | What the user wants         |
-| **Task**            | Work item                      | Step to finish a story      |
-| **Story Points**    | Effort estimate                | Difficulty score            |
-| **Velocity**        | Points per sprint              | Team speed                  |
-| **Daily Standup**   | 15-min update                  | Sync and unblock            |
+| Term                | Meaning                           | Simple Explanation                       |
+| ------------------- | --------------------------------- | ---------------------------------------- |
+| **User Story**      | Small user-focused feature        | Core instruction for AI to generate code |
+| **Product Backlog** | Full list of work                 | Master to-do list                        |
+| **Sprint**          | 1–2 week cycle                    | Work period                              |
+| **Sprint Backlog**  | User stories selected this sprint | This sprint’s work                       |
+| **Epic**            | Huge feature                      | Too big for 1 sprint                     |
+| **Task**            | Small action item                 | Steps to finish a user story             |
+| **Story Points**    | Effort estimate                   | Difficulty score                         |
+| **Velocity**        | Points per sprint                 | Team speed                               |
+| **Standup**         | 15-min update                     | Sync and unblock                         |
 
 ---
