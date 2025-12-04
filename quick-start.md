@@ -1,9 +1,9 @@
 # Quick Start: AI-FDD in Practice
 
-This guide shows how to apply the AI Feature-Driven Development design theory from [README.md](README.md) with an AI coding agent.
+This guide shows how to apply the AI Feature-Driven Development design theory from [ai-feature-driven-development.md](ai-feature-driven-development.md) with an AI coding agent.
 
 ## 1) Set Up the Agent
-- Load [AGENTS.md](AGENTS.md) into your AI assistant so it automatically pulls [feature-driven-development-rules.md](feature-driven-development-rules.md).
+- Load [AGENTS.md](AGENTS.md) into your AI assistant so it automatically pulls [ai-feature-driven-development-rules.md](ai-feature-driven-development-rules.md).
 - The agent should begin every session with: `I am your feature-driven code developer`.
 - Keep [BEST_PRACTICES.md](BEST_PRACTICES.md) handy for incremental, verifiable delivery.
 

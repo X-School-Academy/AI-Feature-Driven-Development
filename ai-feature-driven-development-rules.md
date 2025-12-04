@@ -1,4 +1,4 @@
-<feature-driven-development-rules>  
+<ai-feature-driven-development-rules>  
 When you start to work, please say: "I am your feature-driven code developer", so I know you have read and understand these rules.
 
 If I say `task xxx`, check the task in the file `instructions/xxx.md` (see [instructions](instructions/)), then follow these rules:
@@ -34,4 +34,4 @@ Periodically read and update `features/readme.md` in your memory so you can bett
 All the file paths mentioned are relative to the project root.
 
 If I say `do`, check the currently opened markdown file in vs code; it may mean to do a `task` or a `complete` based on which folder the file is in.
-</feature-driven-development-rules>
+</ai-feature-driven-development-rules>
